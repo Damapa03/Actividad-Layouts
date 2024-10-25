@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="top|start"
+            android:background="#278b7d" />
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#42a646"
+            android:layout_gravity="top|center"/>
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#42a646"
+            android:layout_gravity="top|end"/>
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#5b32ad"
+            android:layout_gravity="center|start"/>
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#3547aa"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#308bf1"
+            android:layout_gravity="center|end"/>
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#e51b57"
+            android:layout_gravity="bottom|start"/>
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#f23b2e"
+            android:layout_gravity="bottom|center"/>
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="#ea9880"
+            android:layout_gravity="bottom|end"/>
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
